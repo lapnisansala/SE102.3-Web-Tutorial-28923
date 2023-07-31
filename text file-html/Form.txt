@@ -1,0 +1,132 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			TUTORIAL-form
+		</title>
+		<style>
+		form
+		{
+		width:400px;
+		}
+		</style>
+			
+	</head>
+	<body>
+		
+		<form>
+			<fieldset style="border-color:blue;">
+				<h1>Registration Form</h1>
+				<table>
+				<tr>
+					<td>First Name</td>
+					<td colspan=3><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td colspan=3><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Mobile Number</td>
+					<td colspan=3><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Gendre</td>
+					<td><input type="radio" name="gender" value="Male">Male</td>
+					<td><input type="radio" name="gender" value="Male">Female</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td colspan=3><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Favourite Music</td>
+					<td><input type="checkbox" name="FM" value="pop">POP</td>
+					<td><input type="checkbox" name="FM" value="rock">Rock</td>
+					<td><input type="checkbox" name="FM" value="other">Othre</td>
+				</tr>
+				<tr>
+					<td>Additional Details</td>
+					<td colspan=3><textarea rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan=3><input type="checkbox">I agree to the terms and conditions</td>
+				</tr>
+				<tr>
+					<td><input type="Submit">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="Reset"></td>
+				</tr>
+				</table>
+			</fieldset>
+		</form>
+		
+		
+		<br><br><br><br><br><br><br><br><br>
+		
+		
+		
+		
+		<form>
+			<fieldset>
+			<legend>Car Registration</legend>
+				<table>
+				<tr>
+					<td>Owner Name</td>
+					<td colspan=2><input type="text"placeholder="Owner Name"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td colspan=2><input type="text"placeholder="Email"></td>
+				</tr>
+				<tr>
+					<td>Phone Number</td>
+					<td colspan=2><input type="text"placeholder="Phone Number"></td>
+				</tr>
+				<tr>
+					<td>Country</td>
+					<td>
+						<select>
+							<option>Sri Lanka</option>
+							<option>Japan</option>
+							<option>India</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Car Model</td>
+					<td colspan=2><input type="text"></td>
+				</tr>
+				<tr>
+				<td>Manufacture Year</td>
+				<td>
+				<select>
+					<option>Select Year</option>
+					<option>1998</option>
+					<option>2001</option>
+				</select>
+				</td>
+			</tr>
+				<tr>
+					<td>Transmission</td>
+					<td><input type="radio" name="type" value="Manual">Manual</td>
+					<td><input type="radio" name="type" value="Auto">Auto</td>
+				</tr>
+				<tr>
+					<td>Other</td>
+					<td colspan=2><textarea rows="5"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan=2><input type="checkbox">I agree to the terms and conditions</td>
+				</tr>
+				<tr>
+					<td><input type="Submit">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="Reset"></td>
+				</tr>
+				</table>
+			</fieldset>
+		</form>
+		
+	</body>
+</html>
